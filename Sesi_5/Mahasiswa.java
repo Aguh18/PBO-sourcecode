@@ -1,4 +1,4 @@
-package sesi5.kampus;
+package sesi
 
 import java.util.ArrayList;
 

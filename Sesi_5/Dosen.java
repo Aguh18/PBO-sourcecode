@@ -1,4 +1,4 @@
-package sesi5.kampus;
+package sesi_5;
 import java.util.ArrayList;
 
 public class Dosen extends Person{
