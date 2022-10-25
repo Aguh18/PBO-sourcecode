@@ -1,4 +1,5 @@
-package sesi5.kampus;
+
+package sesi5;
 
 import java.util.Scanner;
 

@@ -1,4 +1,6 @@
-package sesi5.kampus;
+package sesi5;
+
+
 
 public class Person {
     private String name;
