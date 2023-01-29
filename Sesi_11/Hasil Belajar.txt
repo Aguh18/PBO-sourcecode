@@ -19,5 +19,6 @@ kode yang tadi eror dimasukan kedalam try maka yang di eksekusi sistem ada pada 
 percobaan4 
 -catch yang pertama akan dijalankan adalah eror pertama yang ada pada try
 
-percobaan5
+Percobaan5
+terdapat eror /0 maka akan dikirim ke arithmathicException
 
