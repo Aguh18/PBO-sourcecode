@@ -5,7 +5,8 @@ public class Percobaan {
     {
     try
     {
-    System.out.println(reverse("This is a string"));
+    System.out.println(reverse(""));
+    
     }
     catch(Exception e)
     {
@@ -16,13 +17,11 @@ public class Percobaan {
     System.out.println("All done");
     }
     }
-    
+
     public static String reverse(String s) throws Exception
     {
     if(s.length()==0)
-    
-    
-    {
+           {
     throw new Exception();
     }
     String reverseStr = "";
