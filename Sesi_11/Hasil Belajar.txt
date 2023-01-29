@@ -1,0 +1,23 @@
+percobaan 1
+-eror
+eror karena mendeklarasikan array index ke lima sedangkan indexnya hanya sampai 4
+-pembenaran
+menggunakan try catch sehingga keti ka eror pada try system akan mengeksekusi catch
+
+percobaan2
+-eror 
+eror terjadi di pengulangan ke empat karena untuk jumlah array pada variable tersebut hanya bernilai 3
+-pembenaran
+kode yang tadi eror dimasukan kedalam try maka yang di eksekusi sistem ada pada catch (ArrayIndexOutOfBoundsException)
+
+percobaan3
+-eror 
+eror terjadi karena sebuah bilangan tidak bisa dibagi dengan 0
+-pembenaran
+kode yang tadi eror dimasukan kedalam try maka yang di eksekusi sistem ada pada catch(ArithmeticException)
+
+percobaan4 
+-catch yang pertama akan dijalankan adalah eror pertama yang ada pada try
+
+percobaan5
+
