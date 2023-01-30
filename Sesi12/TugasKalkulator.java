@@ -38,7 +38,7 @@ public class TugasKalkulator extends JFrame{
         inputpanel.setLayout(fl);
         inputpanel.add(txt);
         add(inputpanel, BorderLayout.NORTH);
-
+        
         GridLayout gl = new GridLayout(3, 5);
         JPanel buttonpanel = new JPanel();
         buttonpanel.setLayout(gl);
