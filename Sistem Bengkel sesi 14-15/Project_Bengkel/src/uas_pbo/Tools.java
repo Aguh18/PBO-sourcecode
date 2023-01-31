@@ -106,10 +106,11 @@ public class Tools {
           
         }
         catch(Exception ex){
-            System.out.println("penghapusan gagal");
-            MenuMekanik.Play();
-            ex.printStackTrace();
             
+          System.out.println("Masih dalam pengembangan");
+            
+            
+            MenuMekanik.Play();
             
         }
       MenuMekanik.Play();
@@ -118,7 +119,7 @@ public class Tools {
     
     
     //untuk insert data ke tabel part
-    public static void insertPart(){
+    public static void insertPart() throws Exception{
         Scanner sc = new Scanner(System.in);    
         System.out.print(" kode Barang \t:");
         String kode_barang = sc.next();
@@ -150,7 +151,8 @@ public class Tools {
           }          
         }
         catch(Exception ex){
-            ex.printStackTrace();
+            System.out.println("proses insert tidak berhasil");
+            MenuMekanik.Play();
             
             
         }}
@@ -322,6 +324,7 @@ public class Tools {
         System.out.println("Cari Nama Barang");
         String nama_barang = sc.next();
         
+        
       try{
           Class.forName(jdbc);
           con = DriverManager.getConnection(url, username, password);
@@ -343,6 +346,7 @@ public class Tools {
               System.out.println("----------------------------------------------");
               
           }
+          System.out.println("jumlah barang yang muncul adalah"+ no);
           MenuMekanik.Play();
 
           
@@ -352,6 +356,7 @@ public class Tools {
            
             
         }
+       
         
     }
     public static String getKodebarang(String namabarang)  {

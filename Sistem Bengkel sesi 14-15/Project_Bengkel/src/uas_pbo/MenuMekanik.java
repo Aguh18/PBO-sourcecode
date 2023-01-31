@@ -68,7 +68,7 @@ public class MenuMekanik {
         else if (pil == 5) {
                 Tools.cariSparepart();
             }
-        else if (pil == 5) {
+        else if (pil == 6) {
             MenuMekanik.Play();
             
         }

@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.util.UUID;
 
 
-public class ToolsMekanik {
+public class ToolsMekanik  {
    
     static final String jdbc = "com.mysql.cj.jdbc.Driver";
     static final String url = "jdbc:mysql://localhost/ars";
@@ -19,7 +19,7 @@ public class ToolsMekanik {
     static ResultSet rs;
     static PreparedStatement ps;
 
-    public static void pencatatan( String user) {
+    public static void pencatatan( String user) throws Exception {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Masukan nama barang \t:");
@@ -53,7 +53,8 @@ public class ToolsMekanik {
           
         }
         catch(Exception ex){
-            ex.printStackTrace();
+            System.out.println("masih dalam pengembangan");
+            
             
             
         }
